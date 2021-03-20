@@ -1,0 +1,40 @@
+.movieForm{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.form {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 400px;
+    border: 1px solid gainsboro;
+    border-radius: 3px;
+    background-color: ghostwhite;
+    margin: 10px;
+    padding:  10px;
+}
+.form input, .form button, .form textarea {
+    line-height: 2em;
+    margin: 0 0 1em 0;
+}
+.response{
+
+    border: 1px solid;
+    width: 400px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 3px;
+    text-align: left;
+}
+.error {
+    color: red;
+    background-color: rgb(255, 234, 238);
+    border-color: pink;
+}
+.success{
+    color: black;
+    background-color: rgb(211, 243, 211);
+    border-color: rgb(158, 219, 158);
+}
